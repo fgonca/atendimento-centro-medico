@@ -120,12 +120,12 @@ VALUES ('Kiene', 'BI01','Masc','2001-01-01','Luanda','medico','OM01'),
 
 #Inserir 6 pacientes
 INSERT INTO pessoa (nome, bi, sexo, data_nasc, morada, tipo, grupo_sanguineo, alergias) 
-VALUES ('Ngola', 'BI11','Masc','2011-11-11','Luanda','paciente','O+', ''),
-('Ekwikwi', 'BI12','Masc','2012-12-12','Luanda','paciente','A+', ''),
-('Lweji', 'BI13','Fem','2013-13-13','Luanda','paciente','B+', 'Pólen'),
-('Mandume', 'BI14','Masc','2014-14-14','Luanda','paciente','B+', ''),
-('Njinga', 'BI15','Fem','2015-15-15','Luanda','paciente','A+', 'Pó'),
-('Lukeni', 'BI16','Masc','2016-16-16','Luanda','paciente','B+', 'Pó');
+VALUES ('Ngola', 'BI11','Masc','2011-01-11','Luanda','paciente','O+', ''),
+('Ekwikwi', 'BI12','Masc','2012-02-12','Luanda','paciente','A+', ''),
+('Lweji', 'BI13','Fem','2013-03-13','Luanda','paciente','B+', 'Pólen'),
+('Mandume', 'BI14','Masc','2014-04-14','Luanda','paciente','B+', ''),
+('Njinga', 'BI15','Fem','2015-05-15','Luanda','paciente','A+', 'Pó'),
+('Lukeni', 'BI16','Masc','2016-06-16','Luanda','paciente','B+', 'Pó');
 
 #Inserir gerente e recepcionista
 INSERT INTO pessoa (nome, bi, sexo, data_nasc, morada, tipo) 
